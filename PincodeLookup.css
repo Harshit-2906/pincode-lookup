@@ -1,0 +1,50 @@
+.pincode-lookup {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.pincode-lookup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.pincode-lookup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pincode-lookup .loader {
+    text-align: center;
+    padding: 10px;
+}
+
+.pincode-lookup .error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.pincode-lookup .results {
+    margin-top: 20px;
+}
+
+.pincode-lookup .result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pincode-lookup .no-results {
+    text-align: center;
+    color: gray;
+}
